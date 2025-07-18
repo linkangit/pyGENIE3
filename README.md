@@ -4,22 +4,6 @@ Welcome! This guide walks you through my process for inferring gene regulatory n
 
 ---
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Data Preparation](#data-preparation)
-    - [1. Load and Filter Expression Data](#1-load-and-filter-expression-data)
-    - [2. Filter Genes of Interest](#2-filter-genes-of-interest)
-    - [3. Transpose and Save Expression Matrix](#3-transpose-and-save-expression-matrix)
-3. [Running GENIE3](#running-genie3)
-    - [1. Prepare Input Files](#1-prepare-input-files)
-    - [2. Run GENIE3 Analysis](#2-run-genie3-analysis)
-    - [3. Extract and Save Regulatory Links](#3-extract-and-save-regulatory-links)
-4. [Tips & Troubleshooting](#tips--troubleshooting)
-5. [References](#references)
-
----
-
 ## Introduction
 
 **GENIE3** is a powerful machine learning-based method for inferring gene regulatory networks from expression data. It uses ensembles of regression trees (Random Forests or Extra Trees) to predict the importance of each gene as a regulator of others.
